@@ -1,0 +1,74 @@
+:root{
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: black;
+  font-size: 1.6rem;
+  text-align: center;
+  color: white;
+}
+
+#container {
+  margin-top: 10rem;
+  margin-inline: auto;
+  width: 80%;
+  max-width: 40rem;
+}
+
+h1 {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  opacity: 0.9;
+}
+
+p {
+  margin-bottom: 4rem;
+  opacity: 0.7;
+}
+
+input {
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: blueviolet;
+  border:none;
+  color: white;
+  transition: filter .2s;
+}
+
+input, button {
+  display: block;
+  width: 100%;
+
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 0.4rem;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(1.1)
+}
+
+#resposta {
+  background-color: transparent;
+  margin-top: 3rem;
+  font-size: 2rem;
+
+  transition: opacity .7s;
+}
+
+#resposta div {
+  margin-bottom: 1rem;
+  font-weight: normal;/*300*/
+  opacity: 0.9;
+}
